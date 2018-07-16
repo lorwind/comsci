@@ -20,7 +20,7 @@ int* const five = &four;
 ```
 
 ### Pointer to Constant Variable
-In pointer, this is a pointer a constant variable, using this, we cannot change the value of the variable that it points.
+In pointer, this is a pointer to a constant variable, using this, we cannot change the value of the variable that it points.
 ```cpp
 const int* six;        // Since this is not a constant pointer, we are not forced to initialized this.
 const int  seven = 7;
